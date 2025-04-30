@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:30/04/2025
+## Register Number: 212223040154
+## Name: PRIDEESH M
 ## Problem Title
 SIH 1555: Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
 ## Problem Description
@@ -11,16 +11,72 @@ Background: The AYUSH sector relies heavily on medicinal plants and herbs, which
 Ministry of Ayush
 
 ## Idea
+Title: Virtual Herbal Garden – Experience AYUSH Medicinal Plants Digitally
 
+
+A web-based platform that provides an interactive and immersive experience of a digital herbal garden showcasing medicinal plants used in AYUSH systems. Users can explore 3D plant models, learn their uses, take guided virtual tours, and interact with multimedia content—making ancient traditional knowledge accessible and engaging for everyone.
 
 ## Proposed Solution / Architecture Diagram
 
+![img](https://github.com/user-attachments/assets/2f084a16-09c4-4b69-afb4-b66d17b658dd)
 
 ## Use Cases
 
+| Use Case ID | Title                           | Description                                                                 |
+|-------------|---------------------------------|-----------------------------------------------------------------------------|
+| UC1         | View Plant Information          | Users browse plants and view their medicinal properties and usage.         |
+| UC2         | Explore 3D Model                | Users interact with plant models (zoom, rotate, pan).                      |
+| UC3         | Guided Tour                     | Users take virtual themed tours (e.g., “Immunity Plants”).                 |
+| UC4         | Search & Filter                 | Users filter plants based on disease, region, or AYUSH system.            |
+| UC5         | Bookmark/Save Plants            | Users can mark favorite plants and save notes.                            |
+| UC6         | Share to Social Media           | Share plant profiles via social platforms.                                |
+| UC7         | Multimedia Playback             | Users can view video, listen to audio explanations, or photo galleries.   |
+| UC8         | Admin Management (Optional)     | Admins can add/edit plant data, images, and videos.                       |
 
 ## Technology Stack
 
+| Layer         | Technology                              |
+|---------------|------------------------------------------|
+| **Frontend**  | React.js, Three.js or Babylon.js (for 3D), TailwindCSS |
+| **Backend**   | Node.js + Express.js                    |
+| **Database**  | MongoDB (Atlas) or Firebase Firestore   |
+| **Storage**   | AWS S3 / Firebase Storage (for media)   |
+| **Authentication (optional)** | Firebase Auth / Auth0 |
+| **DevOps/Hosting** | Vercel / Netlify (Frontend), Heroku / Render (Backend) |
+| **3D Assets** | Blender (for model creation), Sketchfab (for sourcing) |
+| **Others**    | Figma (UI/UX design), Postman (API testing) |
 
 ## Dependencies
+🔹 Software & Libraries
+React.js, Three.js or Babylon.js
+
+Node.js, Express.js
+
+MongoDB driver or Mongoose
+
+AWS SDK (if using S3), or Firebase SDK
+
+React Router, Axios, Framer Motion (for UI/UX)
+
+Multer (for file upload in Node backend)
+
+Cloudinary (optional for image hosting)
+
+🔹 Hardware / External
+3D model design software (Blender)
+
+High-quality audio/video equipment (for content creation)
+
+Cloud hosting accounts (AWS, Firebase, etc.)
+
+🔹 Human Resource
+Frontend Developer
+
+Backend Developer
+
+3D Modeler / Multimedia Creator
+
+Content Writer (for plant data and AYUSH info)
+
+UI/UX Designer
 
